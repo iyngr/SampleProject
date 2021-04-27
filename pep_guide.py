@@ -43,3 +43,5 @@ while playerhp > 0:
         print("You're dead. You cannot re spawn. You've been teleported to Hospital")
         break
 
+# Classes and Objects
+
