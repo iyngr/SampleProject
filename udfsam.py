@@ -45,3 +45,4 @@ def do_math(num1, num2):
 sum = do_math(5, 7)
 sum2 = do_math(12, 11)
 print(sum, sum2)
+print(sum)
