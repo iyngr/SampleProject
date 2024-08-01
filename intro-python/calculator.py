@@ -1,18 +1,18 @@
 # Building a calculator using Python
 def sum(num1, num2):
-    result = (num1 + num2)
+    result = num1 + num2
 
 
 def diff(num1, num2):
-    result = (num1 - num2)
+    result = num1 - num2
 
 
 def mul(num1, num2):
-    result = (num1 * num2)
+    result = num1 * num2
 
 
 def div(num1, num2):
-    result = (num1 / num2)
+    result = num1 / num2
 
 
 print("Press 1 to add two numbers")
@@ -26,9 +26,9 @@ num1 = input("First number")
 num2 = input("Second number")
 
 if choice == 1:
-    print (sum(num1, num2))
+    print(sum(num1, num2))
 elif choice == 2:
-    print(diff(num1,num2))
+    print(diff(num1, num2))
 elif choice == 3:
     print(mul(num1, num2))
 elif choice == 4:
